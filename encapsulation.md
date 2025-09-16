@@ -1,3 +1,5 @@
+# Encapsulation and Access Modifiers
+
 ## **Encapsulation** (Data Hiding)
 Keep data (fields) safe by hiding them inside the class and controlling access through methods/properties.
 Why: Protects the internal state and prevents unintended changes.
