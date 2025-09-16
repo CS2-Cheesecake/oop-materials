@@ -187,20 +187,20 @@ In Auto-Property, the compiler generates hidden backing field for you.
 **Instructions:**
 <!--[if !supportLists]-->
 1.     <!--[endif]-->Create a base class called **Vehicle**.  
-Private fields: brand (string), year (int).
-Public properties:
-Brand (get/set, no restrictions).
-Year (get/set, must not be less than 1886 — the year the first car was invented).
+- Private fields: brand (string), year (int).
+- Public properties:
+	- Brand (get/set, no restrictions).  
+	- Year (get/set, must not be less than 1886 — the year the first car was invented).
 2. Create a derived class called **Car** that inherits from **Vehicle**.
-Private field: numberOfDoors (int).
-Public property:
-NumberOfDoors (must be greater than 0).
-Method: ShowCarInfo()
-		  → displays Brand, Year, and NumberOfDoors.  
+- Private field: numberOfDoors (int).
+- Public property:
+  	-  NumberOfDoors (must be greater than 0; if not, display a message and automatically set it to 4).
+- Method: ShowCarInfo()
+	→ displays Brand, Year, and NumberOfDoors.    
 3. In the Main() method:
-Ask the user to input a brand, year, and number of doors.
-Create a Car object using those values.
-Display its info using the method.
+- Ask the user to input a brand, year, and number of doors.
+- Create a Car object using those values.
+- Display its info using the method.
 ```c#
 	  using System;
 	  
