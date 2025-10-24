@@ -1,10 +1,10 @@
 ## 🎯  **Intended Learning Outcomes**
 By the end of the lesson, students will be able to:
-Define what a constructor is and explain its role in object initialization.
-Differentiate between default and parameterized constructors.
-Explain the purpose of constructor overloading.
-Implement and apply constructors in C# classes.
-Demonstrate constructors through a simple real-world example.
+- Define what a constructor is and explain its role in object initialization.
+- Differentiate between default and parameterized constructors.
+- Explain the purpose of constructor overloading.
+- Implement and apply constructors in C# classes.
+- Demonstrate constructors through a simple real-world example.
 ## 🧠  **Introduction to Constructors**
 ### 📘 Definition:
 A **constructor** is a **special method** in a class that is **automatically called when an object is created**.
